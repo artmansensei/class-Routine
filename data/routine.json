@@ -1,0 +1,278 @@
+{
+  "7": {
+    "A": {
+      "Sunday": [
+        { "time": "09:00 AM - 10:05 AM", "course": "No class", "teacher": "-", "room": "-" },
+        { "time": "10:05 AM - 11:10 AM", "course": "No class", "teacher": "-", "room": "-" },
+        { "time": "11:10 AM - 12:15 PM", "course": "ACC 4171: Industrial Management and Accountancy", "teacher": "BA New Teacher 1", "room": "408" },
+        { "time": "12:15 PM - 01:15 PM", "course": "CSE 4122: Technical Report Writing", "teacher": "Sajeeb Kumar Ray, Syeda Tamanna Alam Monisha", "room": "106 DSAL" },
+        { "time": "01:15 PM - 01:50 PM", "course": "☕ Break Time", "teacher": "-", "room": "-" },
+        { "time": "01:50 PM - 02:55 PM", "course": "No class", "teacher": "-", "room": "-" },
+        { "time": "02:55 PM - 04:00 PM", "course": "No class", "teacher": "-", "room": "-" }
+      ],
+      "Monday": [
+        { "time": "09:00 AM - 10:05 AM", "course": "No class", "teacher": "-", "room": "-" },
+        { "time": "10:05 AM - 11:10 AM", "course":  "No class", "teacher": "-", "room": "-" },
+        { "time": "11:10 AM - 12:15 PM", "course": "CSE 4102: Artificial Intelligence Lab", "teacher": "Md. Mahfujur Rahman, D. M. Asadujjaman", "room": "128 BCL" },
+        { "time": "12:15 PM - 01:15 PM", "course": "No class", "teacher": "-", "room": "-" },
+        { "time": "01:15 PM - 01:50 PM", "course": "☕ Break Time", "teacher": "-", "room": "-" },
+        { "time": "01:50 PM - 02:55 PM", "course": "CSE 4105: Engineering Ethics and Environmental Protection", "teacher": "Syeda Tamanna Alam Monisha", "room": "314" },
+        { "time": "02:55 PM - 04:00 PM", "course": "CSE 4108: Microcontroller,Computer Peripherals and Interfacing Lab", "teacher": "Zannatul Mifta, Mohd Ruhul Ameen", "room": "131 MIL" }
+      ],                       
+      "Tuesday": [
+        { "time": "09:00 AM - 10:05 AM", "course": "CSE 4104: Digital Image Processing Lab", "teacher": "Ipshita Tasnim Raha, Zuairia Raisa Bintay Makin", "room": "103 DMSL" },
+        { "time": "10:05 AM - 11:10 AM", "course": "No class", "teacher": "-", "room": "-" },
+        { "time": "11:10 AM - 12:15 PM", "course": "CSE 4105: Engineering Ethics and Environmental Protection", "teacher": "Syeda Tamanna Alam Monisha", "room": "313" },
+        { "time": "12:15 PM - 01:15 PM", "course": "ACC 4171: Industrial Management and Accountancy", "teacher": "BA New Teacher 1", "room": "1013" },
+        { "time": "01:15 PM - 01:50 PM", "course": "☕ Break Time", "teacher": "-", "room": "-" },
+        { "time": "01:50 PM - 02:55 PM", "course": "No class", "teacher": "-", "room": "-" },
+        { "time": "02:55 PM - 04:00 PM", "course": "No class", "teacher": "-", "room": "-" }
+      ],
+      "Wednesday": [
+        { "time": "09:00 AM - 10:05 AM", "course": "No class", "teacher": "-", "room": "-" },
+        { "time": "10:05 AM - 11:10 AM", "course": "No class", "teacher": "-", "room": "-" },
+        { "time": "11:10 AM - 12:15 PM", "course": "No class", "teacher": "-", "room": "-" },
+        { "time": "12:15 PM - 01:15 PM", "course": "CSE 4103: Digital Image Processing", "teacher": "Zuairia Raisa Bintay Makin", "room": "414" },
+        { "time": "01:15 PM - 01:50 PM", "course": "☕ Break Time", "teacher": "-", "room": "-" },
+        { "time": "01:50 PM - 02:55 PM", "course": "CSE 4101: Artificial Intelligence", "teacher": "Md. Mahfujur Rahman", "room": "414" },
+        { "time": "02:55 PM - 04:00 PM", "course": "CSE 4107: Microcontroller", "teacher": "Dr. Md. Johirul Islam", "room": "913" }
+      ],
+      "Thursday": [
+        { "time": "09:00 AM - 10:05 AM", "course": "No class", "teacher": "-", "room": "-" },
+        { "time": "10:05 AM - 11:10 AM", "course": "No class", "teacher": "-", "room": "-" },
+        { "time": "11:10 AM - 12:15 PM", "course": "CSE 4103: Digital Image Processing", "teacher": "Zuairia Raisa Bintay Makin", "room": "313" },
+        { "time": "12:15 PM - 01:15 PM", "course": "CSE 4101: Artificial Intelligence", "teacher": "Md. Mahfujur Rahman", "room": "411" },
+        { "time": "01:15 PM - 01:50 PM", "course": "☕ Break Time", "teacher": "-", "room": "-" },
+        { "time": "01:50 PM - 02:55 PM", "course": "No class", "teacher": "-", "room": "-" },
+        { "time": "02:55 PM - 04:00 PM", "course": "CSE 4107: Microcontroller", "teacher": "Dr. Md. Johirul Islam", "room": "408" }
+      ]
+    },
+    "B": {
+      "Sunday": [
+        { "time": "09:00 AM - 10:05 AM", "course": "CSE 4122: Technical Report Writing", "teacher": "Tahrima Sayem Sowa, Syeda Tamanna Alam Monisha", "room": "128 BCL" },
+        { "time": "10:05 AM - 11:10 AM", "course": "CSE 4103: Digital Image Processing", "teacher": "Md. Taufiq Khan", "room": "511" },
+        { "time": "11:10 AM - 12:15 PM", "course": "No class", "teacher": "-", "room": "-" },
+        { "time": "12:15 PM - 01:15 PM", "course": "CSE 4101: Artificial Intelligence", "teacher": "Md. Mahfujur Rahman", "room": "313" },
+        { "time": "01:15 PM - 01:50 PM", "course": "☕ Break Time", "teacher": "-", "room": "-" },
+        { "time": "01:50 PM - 02:55 PM", "course": "CSE 4107: Microcontroller, Computer Peripherals and Interfacing", "teacher": "Asim Moin Saad", "room": "413" },
+        { "time": "02:55 PM - 04:00 PM", "course": "No class", "teacher": "-", "room": "-" }
+      ],
+      "Monday": [
+        { "time": "09:00 AM - 10:05 AM", "course": "No class", "teacher": "-", "room": "-" },
+        { "time": "10:05 AM - 11:10 AM", "course": "CSE 4102: Artificial Intelligence Lab", "teacher": "Md. Mahfujur Rahman, D. M. Asadujjaman", "room": "128 BCL" },
+        { "time": "11:10 AM - 12:15 PM", "course": "No class", "teacher": "-", "room": "-" },
+        { "time": "12:15 PM - 01:15 PM", "course": "ACC 4171: Industrial Management and Accountancy", "teacher": "BA New Teacher 1", "room": "1008" },
+        { "time": "01:15 PM - 01:50 PM", "course": "☕ Break Time", "teacher": "-", "room": "-" },
+        { "time": "01:50 PM - 02:55 PM", "course": "CSE 4101: Artificial Intelligence", "teacher": "Md. Mahfujur Rahman", "room": "311" },
+        { "time": "02:55 PM - 04:00 PM", "course": "No class", "teacher": "-", "room": "-" }
+      ],
+      "Tuesday": [
+        { "time": "09:00 AM - 10:05 AM", "course": "CSE 4105: Engineering Ethics and Environmental Protection", "teacher": "Syeda Tamanna Alam Monisha", "room": "508" },
+        { "time": "10:05 AM - 11:10 AM", "course": "CSE 4107: Microcontroller, Computer Peripherals and Interfacing", "teacher": "Asim Moin Saad", "room": "508" },
+        { "time": "11:10 AM - 12:15 PM", "course": "ACC 4171: Industrial Management and Accountancy", "teacher": "BA New Teacher 1", "room": "1011" },
+        { "time": "12:15 PM - 01:15 PM", "course": "CSE 4104: Digital Image Processing Lab", "teacher": "Md. Taufiq Khan, Humayra Tasnim", "room": "128 BCL" },
+        { "time": "01:15 PM - 01:50 PM", "course": "☕ Break Time", "teacher": "-", "room": "-" },
+        { "time": "01:50 PM - 02:55 PM", "course": "No class", "teacher": "-", "room": "-" },
+        { "time": "02:55 PM - 04:00 PM", "course": "No class", "teacher": "-", "room": "-" }
+      ],
+      "Wednesday": [
+        { "time": "09:00 AM - 10:05 AM", "course": "CSE 4103: Digital Image Processing", "teacher": "Md. Taufiq Khan", "room": "311" },
+        { "time": "10:05 AM - 11:10 AM", "course": "CSE 4108: Microcontroller, Computer Peripherals and Interfacing Lab", "teacher": "Asim Moin Saad, S.M. Mahadi Hasan", "room": "131 MIL" },
+        { "time": "11:10 AM - 12:15 PM", "course": "No class", "teacher": "-", "room": "-" },
+        { "time": "12:15 PM - 01:15 PM", "course": "CSE 4105: Engineering Ethics and Environmental Protection", "teacher": "Syeda Tamanna Alam Monisha", "room": "1008" },
+        { "time": "01:15 PM - 01:50 PM", "course": "☕ Break Time", "teacher": "-", "room": "-" },
+        { "time": "01:50 PM - 02:55 PM", "course": "No class", "teacher": "-", "room": "-" },
+        { "time": "02:55 PM - 04:00 PM", "course": "No class", "teacher": "-", "room": "-" }
+      
+      ]
+    },
+    "C": {
+      "Sunday": [
+        { "time": "09:00 AM - 10:05 AM", "course": "No class", "teacher": "-", "room": "-" },
+        { "time": "10:05 AM - 11:10 AM", "course": "No class", "teacher": "-", "room": "-" },
+        { "time": "11:10 AM - 12:15 PM", "course": "CSE 4103: Digital Image Processing", "teacher": "Zuairia Raisa Bintay Makin", "room": "412" },
+        { "time": "12:15 PM - 01:15 PM", "course": "CSE 4101: Artificial Intelligence", "teacher": "Md. Fatin Ilham", "room": "408" },
+        { "time": "01:15 PM - 01:50 PM", "course": "☕ Break Time", "teacher": "-", "room": "-" },
+        { "time": "01:50 PM - 02:55 PM", "course": "No class", "teacher": "-", "room": "-" },
+        { "time": "02:55 PM - 04:00 PM", "course": "ACC 4171: Industrial Management and Accountancy", "teacher": "BA New Teacher 4", "room": "509" }
+      ],
+      "Monday": [
+        { "time": "09:00 AM - 10:05 AM", "course": "No class", "teacher": "-", "room": "-" },
+        { "time": "10:05 AM - 11:10 AM", "course": "CSE 4105: Engineering Ethics and Environmental Protection", "teacher": "Syeda Tamanna Alam Monisha", "room": "414" },
+        { "time": "11:10 AM - 12:15 PM", "course": "CSE 4122: Technical Report Writing", "teacher": "Tahrima Sayem Sowa, Shakil Hossan", "room": "106 DSAL" },
+        { "time": "12:15 PM - 01:15 PM", "course": "CSE 4107: Microcontroller, Computer Peripherals and Interfacing", "teacher": "Asim Moin Saad", "room": "413" },
+        { "time": "01:15 PM - 01:50 PM", "course": "☕ Break Time", "teacher": "-", "room": "-" },
+        { "time": "01:50 PM - 02:55 PM", "course": "No class", "teacher": "-", "room": "-" },
+        { "time": "02:55 PM - 04:00 PM", "course": "No class", "teacher": "-", "room": "-" }
+      ],
+      "Tuesday": [
+        { "time": "09:00 AM - 10:05 AM", "course": "No class", "teacher": "-", "room": "-" },
+        { "time": "10:05 AM - 11:10 AM", "course": "No class", "teacher": "-", "room": "-" },
+        { "time": "11:10 AM - 12:15 PM", "course": "No class", "teacher": "-", "room": "-" },
+        { "time": "12:15 PM - 01:15 PM", "course": "CSE 4105: Engineering Ethics and Environmental Protection", "teacher": "Syeda Tamanna Alam Monisha", "room": "311" },
+        { "time": "01:15 PM - 01:50 PM", "course": "☕ Break Time", "teacher": "-", "room": "-" },
+        { "time": "01:50 PM - 02:55 PM", "course": "CSE 4107: Microcontroller, Computer Peripherals and Interfacing", "teacher": "Asim Moin Saad", "room": "509" },
+        { "time": "02:55 PM - 04:00 PM", "course": "ACC 4171: Industrial Management and Accountancy", "teacher": "BA New Teacher 4", "room": "311" }
+      ],
+      "Wednesday": [
+        { "time": "09:00 AM - 10:05 AM", "course": "No class", "teacher": "-", "room": "-" },
+        { "time": "10:05 AM - 11:10 AM", "course": "No class", "teacher": "-", "room": "-" },
+        { "time": "11:10 AM - 12:15 PM", "course": "CSE 4103: Digital Image Processing", "teacher": "Zuairia Raisa Bintay Makin", "room": "511" },
+        { "time": "12:15 PM - 01:15 PM", "course": "No class", "teacher": "-", "room": "-" },
+        { "time": "01:15 PM - 01:50 PM", "course": "☕ Break Time", "teacher": "-", "room": "-" },
+        { "time": "01:50 PM - 02:55 PM", "course": "CSE 4101: Artificial Intelligence", "teacher": "Md. Fatin Ilham", "room": "411" },
+        { "time": "02:55 PM - 04:00 PM", "course": "CSE 4102: Artificial Intelligence Lab", "teacher": "Ahmed Al Azmain, Md. Fatin Ilham", "room": "128 BCL" }
+      ],
+      "Thursday": [
+        { "time": "09:00 AM - 10:05 AM", "course": "No class", "teacher": "-", "room": "-" },
+        { "time": "10:05 AM - 11:10 AM", "course": "No class", "teacher": "-", "room": "-" },
+        { "time": "11:10 AM - 12:15 PM", "course": "CSE 4108: Microcontroller, Computer Peripherals and Interfacing Lab", "teacher": "Zannatul Mifta, Asim Moin Saad", "room": "131 MIL" },
+        { "time": "12:15 PM - 01:15 PM", "course": "No class", "teacher": "-", "room": "-" },
+        { "time": "01:15 PM - 01:50 PM", "course": "☕ Break Time", "teacher": "-", "room": "-" },
+        { "time": "01:50 PM - 02:55 PM", "course": "CSE 4104: Digital Image Processing Lab", "teacher": "Ipshita Tasnim Raha, Zuairia Raisa Bintay Makin", "room": "128 BCL" },
+        { "time": "02:55 PM - 04:00 PM", "course": "No class", "teacher": "-", "room": "-" }
+      ]
+    },
+    "D": {
+      "Sunday": [
+        { "time": "09:00 AM - 10:05 AM", "course": "No class", "teacher": "-", "room": "-" },
+        { "time": "10:05 AM - 11:10 AM", "course": "No class", "teacher": "-", "room": "-" },
+        { "time": "11:10 AM - 12:15 PM", "course": "No class", "teacher": "-", "room": "-" },
+        { "time": "12:15 PM - 01:15 PM", "course": "CSE 4103: Digital Image Processing", "teacher": "Md. Taufiq Khan", "room": "311" },
+        { "time": "01:15 PM - 01:50 PM", "course": "☕ Break Time", "teacher": "-", "room": "-" },
+        { "time": "01:50 PM - 02:55 PM", "course": "No class", "teacher": "-", "room": "-" },
+        { "time": "02:55 PM - 04:00 PM", "course": "CSE 4101: Artificial Intelligence", "teacher": "Md. Fatin Ilham", "room": "411" }
+      ],
+      "Monday": [
+        { "time": "09:00 AM - 10:05 AM", "course": "No class", "teacher": "-", "room": "-" },
+        { "time": "10:05 AM - 11:10 AM", "course": "No class", "teacher": "-", "room": "-" },
+        { "time": "11:10 AM - 12:15 PM", "course": "No class", "teacher": "-", "room": "-" },
+        { "time": "12:15 PM - 01:15 PM", "course": "CSE 4101: Artificial Intelligence", "teacher": "Md. Fatin Ilham", "room": "1009" },
+        { "time": "01:15 PM - 01:50 PM", "course": "☕ Break Time", "teacher": "-", "room": "-" },
+        { "time": "01:50 PM - 02:55 PM", "course": "CSE 4105: Engineering Ethics and Environmental Protection", "teacher": "Mohd Ruhul Ameen", "room": "412" },
+        { "time": "02:55 PM - 04:00 PM", "course": "No class", "teacher": "-", "room": "-" }
+      ],
+      "Tuesday": [
+        { "time": "09:00 AM - 10:05 AM", "course": "No class", "teacher": "-", "room": "-" },
+        { "time": "10:05 AM - 11:10 AM", "course": "No class", "teacher": "-", "room": "-" },
+        { "time": "11:10 AM - 12:15 PM", "course": "CSE 4105: Engineering Ethics and Environmental Protection", "teacher": "Mohd Ruhul Ameen", "room": "412" },
+        { "time": "12:15 PM - 01:15 PM", "course": "ACC 4171: Industrial Management and Accountancy", "teacher": "BA New Teacher 4", "room": "414" },
+        { "time": "01:15 PM - 01:50 PM", "course": "☕ Break Time", "teacher": "-", "room": "-" },
+        { "time": "01:50 PM - 02:55 PM", "course": "No class", "teacher": "-", "room": "-" },
+        { "time": "02:55 PM - 04:00 PM", "course": "CSE 4102: Artificial Intelligence Lab", "teacher": "Ahmed Al Azmain, Md. Fatin Ilham", "room": "128 BCL" }
+      ],
+      "Wednesday": [
+        { "time": "09:00 AM - 10:05 AM", "course": "No class", "teacher": "-", "room": "-" },
+        { "time": "10:05 AM - 11:10 AM", "course": "No class", "teacher": "-", "room": "-" },
+        { "time": "11:10 AM - 12:15 PM", "course": "ACC 4171: Industrial Management and Accountancy", "teacher": "BA New Teacher 4", "room": "314" },
+        { "time": "12:15 PM - 01:15 PM", "course": "No class", "teacher": "-", "room": "-" },
+        { "time": "01:15 PM - 01:50 PM", "course": "☕ Break Time", "teacher": "-", "room": "-" },
+        { "time": "01:50 PM - 02:55 PM", "course": "CSE 4104: Digital Image Processing Lab", "teacher": "Md. Taufiq Khan, Humayra Tasnim", "room": "128 BCL" },
+        { "time": "02:55 PM - 04:00 PM", "course": "CSE 4107: Microcontroller, Computer Peripherals and Interfacing", "teacher": "Asim Moin Saad", "room": "1009" }
+      ],
+      "Thursday": [
+        { "time": "09:00 AM - 10:05 AM", "course": "No class", "teacher": "-", "room": "-" },
+        { "time": "10:05 AM - 11:10 AM", "course": "No class", "teacher": "-", "room": "-" },
+        { "time": "11:10 AM - 12:15 PM", "course": "CSE 4103: Digital Image Processing", "teacher": "Md. Taufiq Khan", "room": "1005" },
+        { "time": "12:15 PM - 01:15 PM", "course": "CSE 4108: Microcontroller, Computer Peripherals and Interfacing Lab", "teacher": "Asim Moin Saad, S.M. Mahadi Hasan", "room": "131 MIL" },
+        { "time": "01:15 PM - 01:50 PM", "course": "☕ Break Time", "teacher": "-", "room": "-" },
+        { "time": "01:50 PM - 02:55 PM", "course":  "CSE 4122: Technical Report Writing", "teacher": "Barisha Chowdhury, Syeda Tamanna Alam Monisha", "room": "129 SEL" },
+        { "time": "02:55 PM - 04:00 PM", "course": "CSE 4107: Microcontroller, Computer Peripherals and Interfacing", "teacher": "Asim Moin Saad", "room": "511" }
+      ]
+    },
+    "E": {
+      "Sunday": [
+        { "time": "09:00 AM - 10:05 AM", "course": "CSE 4122: Technical Report Writing", "teacher": "Mohd Ruhul Ameen, Shakil Hossan", "room": "103 DMSL" },
+        { "time": "10:05 AM - 11:10 AM", "course": "CSE 4108: Microcontroller, Computer Peripherals and Interfacing Lab", "teacher": "Asim Moin Saad, S.M. Mahadi Hasan", "room": "131 MIL" },
+        { "time": "11:10 AM - 12:15 PM", "course": "CSE 4105: Engineering Ethics and Environmental Protection", "teacher": "Mohd Ruhul Ameen", "room": "411" },
+        { "time": "12:15 PM - 01:15 PM", "course": "No class", "teacher": "-", "room": "-" },
+        { "time": "01:15 PM - 01:50 PM", "course": "☕ Break Time", "teacher": "-", "room": "-" },
+        { "time": "01:50 PM - 02:55 PM", "course": "No class", "teacher": "-", "room": "-" },
+        { "time": "02:55 PM - 04:00 PM", "course": "No class", "teacher": "-", "room": "-" }
+      ],
+      "Monday": [
+        { "time": "09:00 AM - 10:05 AM", "course": "No class", "teacher": "-", "room": "-" },
+        { "time": "10:05 AM - 11:10 AM", "course": "No class", "teacher": "-", "room": "-" },
+        { "time": "11:10 AM - 12:15 PM", "course": "CSE 4103: Digital Image Processing", "teacher": "Md. Taufiq Khan", "room": "511" },
+        { "time": "12:15 PM - 01:15 PM", "course": "ACC 4171: Industrial Management and Accountancy", "teacher": "BA New Teacher 2", "room": "414" },
+        { "time": "01:15 PM - 01:50 PM", "course": "☕ Break Time", "teacher": "-", "room": "-" },
+        { "time": "01:50 PM - 02:55 PM", "course": "CSE 4107: Microcontroller, Computer Peripherals and Interfacing", "teacher": "Asim Moin Saad", "room": "1011" },
+        { "time": "02:55 PM - 04:00 PM", "course": "No class", "teacher": "-", "room": "-" }
+      ],
+      "Tuesday": [
+        { "time": "09:00 AM - 10:05 AM", "course": "No class", "teacher": "-", "room": "-" },
+        { "time": "10:05 AM - 11:10 AM", "course": "No class", "teacher": "-", "room": "-" },
+        { "time": "11:10 AM - 12:15 PM", "course": "No class", "teacher": "-", "room": "-" },
+        { "time": "12:15 PM - 01:15 PM", "course": "CSE 4105: Engineering Ethics and Environmental Protection", "teacher": "Mohd Ruhul Ameen", "room": "511" },
+        { "time": "01:15 PM - 01:50 PM", "course": "☕ Break Time", "teacher": "-", "room": "-" },
+        { "time": "01:50 PM - 02:55 PM", "course": "CSE 4102: Artificial Intelligence Lab", "teacher": "Ahmed Al Azmain, Md. Fatin Ilham", "room": "128 BCL" },
+        { "time": "02:55 PM - 04:00 PM", "course": "CSE 4107: Microcontroller, Computer Peripherals and Interfacing", "teacher": "Asim Moin Saad", "room": "1002" }
+      ],
+      "Wednesday": [
+        { "time": "09:00 AM - 10:05 AM", "course": "No class", "teacher": "-", "room": "-" },
+        { "time": "10:05 AM - 11:10 AM", "course": "No class", "teacher": "-", "room": "-" },
+        { "time": "11:10 AM - 12:15 PM", "course": "CSE 4101: Artificial Intelligence", "teacher": "Md. Fatin Ilham", "room": "411" },
+        { "time": "12:15 PM - 01:15 PM", "course": "CSE 4103: Digital Image Processing", "teacher": "Md. Taufiq Khan", "room": "514" },
+        { "time": "01:15 PM - 01:50 PM", "course": "☕ Break Time", "teacher": "-", "room": "-" },
+        { "time": "01:50 PM - 02:55 PM", "course": "No class", "teacher": "-", "room": "-" },
+        { "time": "02:55 PM - 04:00 PM", "course": "ACC 4171: Industrial Management and Accountancy", "teacher": "BA New Teacher 2", "room": "314" }
+      ],
+      "Thursday": [
+        { "time": "09:00 AM - 10:05 AM", "course": "No class", "teacher": "-", "room": "-" },
+        { "time": "10:05 AM - 11:10 AM", "course": "CSE 4104: Digital Image Processing Lab", "teacher": "Md. Taufiq Khan, Md. Jamil Chaudhary", "room": "106 DSAL" },
+        { "time": "11:10 AM - 12:15 PM", "course": "CSE 4101: Artificial Intelligence", "teacher": "Md. Fatin Ilham", "room": "511" },
+        { "time": "12:15 PM - 01:15 PM", "course": "No class", "teacher": "-", "room": "-" },
+        { "time": "01:15 PM - 01:50 PM", "course": "☕ Break Time", "teacher": "-", "room": "-" },
+        { "time": "01:50 PM - 02:55 PM", "course": "No class", "teacher": "-", "room": "-" },
+        { "time": "02:55 PM - 04:00 PM", "course": "No class", "teacher": "-", "room": "-" }
+      ]
+    },
+    "F": {
+      "Sunday": [
+        { "time": "09:00 AM - 10:05 AM", "course": "CSE 4104: Digital Image Processing Lab", "teacher": "Md. Taufiq Khan, Zuairia Raisa Bintay Makin", "room": "104 CNL" },
+        { "time": "10:05 AM - 11:10 AM", "course": "ACC 4171: Industrial Management and Accountancy", "teacher": "BA New Teacher 2", "room": "1012" },
+        { "time": "11:10 AM - 12:15 PM", "course": "No class", "teacher": "-", "room": "-" }, 
+        { "time": "12:15 PM - 01:15 PM", "course": "CSE 4122: Technical Report Writing", "teacher": "Mohd Ruhul Ameen, Shakil Hossan", "room": "104 CNL" },
+        { "time": "01:15 PM - 01:50 PM", "course": "☕ Break Time", "teacher": "-", "room": "-" },
+        { "time": "01:50 PM - 02:55 PM", "course": "No class", "teacher": "-", "room": "-" },
+        { "time": "02:55 PM - 04:00 PM", "course": "No class", "teacher": "-", "room": "-" }
+      ],
+      "Monday": [
+        { "time": "09:00 AM - 10:05 AM", "course": "CSE 4103: Digital Image Processing", "teacher": "Zuairia Raisa Bintay Makin", "room": "412" },
+        { "time": "10:05 AM - 11:10 AM", "course": "No class", "teacher": "-", "room": "-" },
+        { "time": "11:10 AM - 12:15 PM", "course": "CSE 4108: Microcontroller, Computer Peripherals and Interfacing Lab", "teacher": "Zannatul Mifta, S.M. Mahadi Hasan", "room": "131 MIL" },
+        { "time": "12:15 PM - 01:15 PM", "course": "CSE 4105: Engineering Ethics and Environmental Protection", "teacher": "Mohd Ruhul Ameen", "room": "511" },
+        { "time": "01:15 PM - 01:50 PM", "course": "☕ Break Time", "teacher": "-", "room": "-" },
+        { "time": "01:50 PM - 02:55 PM", "course": "No class", "teacher": "-", "room": "-" },
+        { "time": "02:55 PM - 04:00 PM", "course": "No class", "teacher": "-", "room": "-" }
+      ],
+      "Tuesday": [
+        { "time": "09:00 AM - 10:05 AM", "course": "CSE 4107: Microcontroller, Computer Peripherals and Interfacing", "teacher": "S.M. Mahadi Hasan", "room": "414" },
+        { "time": "10:05 AM - 11:10 AM", "course": "CSE 4101: Artificial Intelligence", "teacher": "Md. Mahfujur Rahman", "room": "314" },
+        { "time": "11:10 AM - 12:15 PM", "course": "No class", "teacher": "-", "room": "-" },
+        { "time": "12:15 PM - 01:15 PM", "course": "No class", "teacher": "-", "room": "-" },
+        { "time": "01:15 PM - 01:50 PM", "course": "☕ Break Time", "teacher": "-", "room": "-" },
+        { "time": "01:50 PM - 02:55 PM", "course": "No class", "teacher": "-", "room": "-" },
+        { "time": "02:55 PM - 04:00 PM", "course": "No class", "teacher": "-", "room": "-" }
+      ],
+      "Wednesday": [
+        { "time": "09:00 AM - 10:05 AM", "course": "No class", "teacher": "-", "room": "-" },
+        { "time": "10:05 AM - 11:10 AM", "course": "CSE 4101: Artificial Intelligence", "teacher": "Md. Mahfujur Rahman", "room": "313" },
+        { "time": "11:10 AM - 12:15 PM", "course": "ACC 4171: Industrial Management and Accountancy", "teacher": "BA New Teacher 2", "room": "311" },
+        { "time": "12:15 PM - 01:15 PM", "course": "No class", "teacher": "-", "room": "-" },
+        { "time": "01:15 PM - 01:50 PM", "course": "☕ Break Time", "teacher": "-", "room": "-" },
+        { "time": "01:50 PM - 02:55 PM", "course": "CSE 4105: Engineering Ethics and Environmental Protection", "teacher": "Mohd Ruhul Ameen", "room": "413" },
+        { "time": "02:55 PM - 04:00 PM", "course": "No class", "teacher": "-", "room": "-" }
+      ],
+      "Thursday": [
+        { "time": "09:00 AM - 10:05 AM", "course": "No class", "teacher": "-", "room": "-" },
+        { "time": "10:05 AM - 11:10 AM", "course": "No class", "teacher": "-", "room": "-" },
+        { "time": "11:10 AM - 12:15 PM", "course": "No class", "teacher": "-", "room": "-" },
+        { "time": "12:15 PM - 01:15 PM", "course": "CSE 4103: Digital Image Processing", "teacher": "Zuairia Raisa Bintay Makin", "room": "1001" },
+        { "time": "01:15 PM - 01:50 PM", "course": "☕ Break Time", "teacher": "-", "room": "-" },
+        { "time": "01:50 PM - 02:55 PM", "course": "CSE 4107: Microcontroller, Computer Peripherals and Interfacing", "teacher": "S.M. Mahadi Hasan", "room": "512" },
+        { "time": "02:55 PM - 04:00 PM", "course": "CSE 4102: Artificial Intelligence Lab", "teacher": "Md. Mahfujur Rahman, D. M. Asadujjaman", "room": "128 BCL" }
+      ]
+    }
+  }
+}

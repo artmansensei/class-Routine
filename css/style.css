@@ -1,0 +1,559 @@
+/* =========================================
+   Google Font: JetBrains Mono (CSE Vibe)
+========================================= */
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&display=swap');
+
+/* =========================================
+   Theme Variables (Smooth Monochrome)
+========================================= */
+:root {
+    --bg-color: #f4f5f7;        /* Halka grey background */
+    --text-color: #2b2b2b;      /* Kalo noi, dark grey text */
+    --card-bg: #ffffff;         /* Pure white card */
+    --border-color: #e5e7eb;    /* Soft border */
+    --hover-bg: #f3f4f6;
+    --time-color: #6b7280;      /* Time er jonno mute colour */
+    --shadow: 0 4px 15px rgba(0, 0, 0, 0.05); /* Soft transparent shadow */
+    --radius: 10px;             /* Smooth corners */
+}
+
+/* Dark Mode Colors (Comfortable dark grey) */
+[data-theme="dark"] {
+    --bg-color: #121212;
+    --text-color: #e5e7eb;
+    --card-bg: #1e1e1e;
+    --border-color: #333333;
+    --hover-bg: #2a2a2a;
+    --time-color: #9ca3af;
+    --shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+}
+
+/* Date picker er calendar icon dark mode e support korar jonno - eita block er baire thakbe */
+[data-theme="dark"] input[type="date"] {
+    color-scheme: dark;
+}
+
+/* =========================================
+   Base Styles
+========================================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    line-height: 1.5;
+    overscroll-behavior-y: contain;
+}
+
+/* =========================================
+   Header & Theme Button
+========================================= */
+.app-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--border-color);
+    margin-bottom: 30px;
+}
+
+.app-header h1 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+}
+
+.theme-btn {
+    background: var(--card-bg);
+    color: var(--text-color);
+    border: 1px solid var(--border-color);
+    padding: 8px 16px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: var(--radius);
+    transition: all 0.2s ease;
+    font-size: 0.9rem;
+}
+
+.theme-btn:hover {
+    background: var(--hover-bg);
+}
+
+/* =========================================
+   Filter Section (Dropdowns)
+========================================= */
+.filter-section {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.dropdown {
+    flex: 1;
+    padding: 12px;
+    background: var(--card-bg);
+    color: var(--text-color);
+    border: 1px solid var(--border-color);
+    font-size: 0.95rem;
+    border-radius: var(--radius);
+    cursor: pointer;
+    outline: none;
+    transition: all 0.2s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.02);
+}
+
+.dropdown:focus {
+    border-color: #888;
+}
+
+/* =========================================
+   Routine Cards (Smooth Look)
+========================================= */
+.cards-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.routine-card {
+    background: var(--card-bg);
+    padding: 20px;
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    position: relative; /* Note Badge positioning er jonno */
+    cursor: pointer; /* Clickable bojhanor jonno normal pointer */
+}
+
+.routine-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1); 
+}
+[data-theme="dark"] .routine-card:hover {
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
+}
+
+.time-slot {
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: var(--time-color);
+    margin-bottom: 8px;
+    display: block;
+}
+
+.course-title {
+    font-size: 1.15rem;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.card-details p {
+    font-size: 0.9rem;
+    margin-bottom: 4px;
+    opacity: 0.85;
+}
+
+/* =========================================
+   Empty State & Headers
+========================================= */
+.placeholder-text {
+    text-align: center;
+    color: var(--time-color);
+    margin-top: 40px;
+    padding: 30px;
+    border: 1px dashed var(--border-color);
+    border-radius: var(--radius);
+    font-size: 0.95rem;
+}
+
+h3 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    color: var(--text-color);
+    border-bottom: 2px solid var(--border-color);
+    padding-bottom: 5px;
+    display: inline-block;
+}
+
+/* =========================================
+   Day Selection Tabs (Image er moto design)
+========================================= */
+.day-tabs-container {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 25px;
+    overflow-x: auto; /* Horizontal scroll enable kora holo */
+    scroll-behavior: smooth;
+    padding-bottom: 5px; /* Niche ektu faka jayga deya holo */
+    
+    /* Scrollbar hide korar jonno */
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+/* Chrome, Safari aur Opera er jonno scrollbar hide */
+.day-tabs-container::-webkit-scrollbar {
+    display: none;
+}
+
+.day-tab {
+    background: var(--card-bg);
+    color: var(--text-color);
+    border: 1px solid var(--border-color);
+    padding: 8px 18px;
+    border-radius: var(--radius);
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    flex-shrink: 0; /* Button gulo jeno choto/chapte na hoye jay, tar jonno */
+}
+
+.day-tab:hover {
+    background: var(--hover-bg);
+}
+
+.day-tab.active {
+    background: #e2e8f0;
+    border-color: #cbd5e1;
+}
+
+[data-theme="dark"] .day-tab.active {
+    background: #334155; 
+    border-color: #475569;
+}
+
+/* =========================================
+   Header Layout Update
+========================================= */
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.icon-btn {
+    background: transparent;
+    border: none;
+    color: var(--text-color);
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+.icon-btn:hover {
+    transform: scale(1.1);
+}
+
+/* =========================================
+   Sidebar Menu Styles
+========================================= */
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: -280px; /* Initially hidden */
+    width: 260px;
+    height: 100vh;
+    background-color: var(--card-bg);
+    box-shadow: 2px 0 15px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    transition: left 0.3s ease;
+    padding: 20px;
+}
+
+[data-theme="dark"] .sidebar {
+    box-shadow: 2px 0 15px rgba(0, 0, 0, 0.5);
+    border-right: 1px solid var(--border-color);
+}
+
+.sidebar.active {
+    left: 0; /* Menu slide in */
+}
+
+.sidebar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+.close-btn {
+    background: transparent;
+    border: none;
+    color: var(--text-color);
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.menu-list {
+    list-style: none;
+}
+
+.menu-item {
+    padding: 12px 15px;
+    margin-bottom: 10px;
+    border-radius: var(--radius);
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.2s ease;
+}
+
+.menu-item:hover {
+    background-color: var(--hover-bg);
+}
+
+/* Overlay Background */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(2px);
+    z-index: 999;
+    display: none; /* Initially hidden */
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.overlay.active {
+    display: block;
+    opacity: 1;
+}
+
+/* Print korar somoy jeno menu/buttons hide hoye jay */
+@media print {
+    .app-header, .filter-section, .sidebar, .overlay, .day-tabs-container {
+        display: none !important;
+    }
+    body {
+        background-color: white !important;
+        color: black !important;
+    }
+    .routine-card {
+        box-shadow: none;
+        border: 1px solid #ccc;
+    }
+}
+
+/* =========================================
+   Live Class Highlight (The Wow Factor)
+========================================= */
+.live-card {
+    border: 2px solid #22c55e; /* Green border */
+    box-shadow: 0 4px 20px rgba(34, 197, 94, 0.15) !important;
+    transform: translateY(-2px);
+}
+
+[data-theme="dark"] .live-card {
+    box-shadow: 0 4px 20px rgba(34, 197, 94, 0.25) !important;
+}
+
+.live-badge {
+    display: inline-block;
+    background: rgba(34, 197, 94, 0.1);
+    color: #16a34a;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    margin-bottom: 12px;
+    animation: pulse 2s infinite;
+}
+
+[data-theme="dark"] .live-badge {
+    color: #4ade80;
+}
+
+@keyframes pulse {
+    0% { opacity: 1; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1; }
+}
+
+/* =========================================
+   General Popup/Modal Styles
+========================================= */
+.confirm-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.8);
+    background: var(--card-bg);
+    color: var(--text-color);
+    padding: 25px;
+    border-radius: var(--radius);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+    border: 2px solid var(--border-color);
+    width: 320px;
+    text-align: center;
+    z-index: 10000;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.confirm-popup.show {
+    opacity: 1;
+    visibility: visible;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.popup-content h3 {
+    border-bottom: none;
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: var(--text-color);
+}
+
+.popup-content p {
+    font-size: 0.95rem;
+    opacity: 0.8;
+    margin-bottom: 20px;
+}
+
+.popup-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.popup-btn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: var(--radius);
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.cancel-btn {
+    background: transparent;
+    border: 1px solid #ef4444;
+    color: #ef4444;
+}
+.cancel-btn:hover {
+    background: rgba(239, 68, 68, 0.1);
+}
+
+.confirm-btn {
+    background: #22c55e;
+    color: white;
+}
+.confirm-btn:hover {
+    background: #16a34a;
+}
+
+/* =========================================
+   Class Note Modal & Badges
+========================================= */
+.note-indicator {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: rgba(34, 197, 94, 0.15);
+    color: #16a34a;
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: 700;
+}
+
+[data-theme="dark"] .note-indicator {
+    color: #4ade80;
+}
+
+/* =========================================
+   Card Note Display (Red Color)
+========================================= */
+.card-note-display {
+    margin-top: 10px;
+    padding-top: 8px;
+    border-top: 1px dashed var(--border-color);
+    font-size: 0.85rem;
+    color: #ef4444; /* Red color */
+    font-weight: 500;
+}
+
+[data-theme="dark"] .card-note-display {
+    color: #f87171;
+}
+
+/* =========================================
+   Pull to Refresh Indicator
+========================================= */
+#pull-indicator {
+    text-align: center;
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: var(--time-color);
+    background: var(--bg-color);
+    height: 0;
+    overflow: hidden;
+    transition: height 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* =========================================
+   Compact Date & Time Widget
+========================================= */
+.datetime-widget {
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius);
+    padding: 10px 15px; /* প্যাডিং কমানো হয়েছে */
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04); /* শ্যাডো হালকা করা হয়েছে */
+}
+
+.time-display {
+    font-size: 1.1rem; /* ফন্ট সাইজ কমানো হয়েছে */
+    font-weight: 700;
+    color: var(--text-color);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* Choto Green blinking dot */
+.live-dot {
+    width: 8px;
+    height: 8px;
+    background-color: #22c55e;
+    border-radius: 50%;
+    animation: pulse 2s infinite;
+}
+
+.date-display {
+    font-size: 0.85rem; /* ফন্ট সাইজ কমানো হয়েছে */
+    font-weight: 600;
+    color: var(--time-color);
+}
+
+/* Mobile Responsive */
+@media (max-width: 400px) {
+    .datetime-widget {
+        flex-direction: column;
+        gap: 5px;
+        padding: 10px;
+    }
+}
