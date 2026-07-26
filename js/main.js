@@ -115,14 +115,14 @@ function displayRoutine() {
     const sectionData = routineData[semester]?.[section];
 
     if (!sectionData) {
-        routineContainer.innerHTML = '<p class="placeholder-text">Ei section er kono routine paoa jayni.</p>';
+        routineContainer.innerHTML = '<p class="placeholder-text">Not Added yet.</p>';
         return;
     }
 
     const classesForToday = sectionData[currentSelectedDay];
 
     if (!classesForToday || classesForToday.length === 0) {
-        routineContainer.innerHTML = '<p class="placeholder-text">Ei dine kono class nei.</p>';
+        routineContainer.innerHTML = '<p class="placeholder-text">OFF Day</p>';
         return;
     }
 
