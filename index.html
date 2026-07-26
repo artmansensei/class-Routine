@@ -4,17 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VU Routine</title>
+    <!-- PWA Manifest & Theme Color -->
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#22c55e">
     <!-- CSS Link -->
     <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" type="png" href="icon/routine.png">
+    <link rel="icon" type="image/png" href="icon/routine.png">
 </head>
 <body>
 
     <!-- Pull to Refresh Indicator -->
     <div id="pull-indicator">⬇️ Pull down to refresh</div>
 
-    <!-- Sidebar Menu & Overlay  -->
-    <div id="menu-overlay" class="overlay"></div>
+  
 
     <!-- Sidebar Menu & Overlay -->
     <div id="menu-overlay" class="overlay"></div>
@@ -23,12 +25,14 @@
             <h2>⚙️</h2>
             <button id="close-menu" class="close-btn">✖</button>
         </div>
-        <ul class="menu-list">
+        
+            <ul class="menu-list">
             <li id="menu-print" class="menu-item">🖨️ Print Routine</li>
-            <li id="menu-calendar" class="menu-item">🎓Student Login</li>
+            <li id="menu-calendar" class="menu-item">🎓 Student Login</li>
+            <li id="menu-install" class="menu-item" style="display: none;">📱 Install App</li>
             <li id="theme-toggle" class="menu-item">🌙 Dark Mode</li>
+            <li id="menu-reset" class="menu-item" style="color: #ef4444; margin-top: 15px; border-top: 1px solid var(--border-color); padding-top: 15px;">🔄 Reset App</li>
             <li id="menu-about" class="menu-item">ℹ️ About App</li>
-            <li id="reset-btn" class="menu-item">Reset</li>
         </ul>
     </div>
 
@@ -156,10 +160,60 @@
             </div>
         </div>
     </div>
+
+    <!-- Premium Reset Confirmation Popup -->
+    <div id="reset-modal" class="confirm-popup">
+        <div class="popup-content">
+            <div style="font-size: 3rem; margin-bottom: 10px;">⚠️</div>
+            <h3 style="color: #ef4444; border-bottom: none; margin-top: 0;">Reset App?</h3>
+            <p style="font-size: 0.9rem; margin-bottom: 20px;">Are you sure? This will delete all your saved notes, offline routine, and preferences. You will need an internet connection to reload.</p>
+            <div class="popup-buttons" style="justify-content: center; gap: 15px;">
+                <!-- Cancel button (Neutral) -->
+                <button id="cancel-reset-btn" class="popup-btn" style="background: transparent; border: 1px solid var(--border-color); color: var(--text-color);">Cancel</button>
+                <!-- Confirm button (Red/Destructive) -->
+                <button id="confirm-reset-btn" class="popup-btn" style="background: #ef4444; color: white; border: none;">Yes, Reset!</button>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Premium Install App Modal -->
+    <div id="install-modal" class="confirm-popup">
+        <div class="popup-content">
+            <div style="font-size: 3rem; margin-bottom: 10px;">📱</div>
+            <h3 style="color: var(--text-color); border-bottom: none; margin-top: 0;">Install VU Routine</h3>
+            
+            <!-- Professional Copywriting -->
+            <p style="font-size: 0.9rem; margin-bottom: 20px; color: var(--time-color); line-height: 1.6;">
+                Get fast, offline access to your class schedule. Install the app to your home screen for a seamless experience without needing an internet connection.
+            </p>
+            
+            <div class="popup-buttons" style="justify-content: center; gap: 15px;">
+                <button id="cancel-install-btn" class="popup-btn" style="background: transparent; border: 1px solid var(--border-color); color: var(--text-color);">Not Now</button>
+                <button id="confirm-install-btn" class="popup-btn" style="background: #22c55e; color: white; border: none;">Install App</button>
+            </div>
+        </div>
+    </div>
     <!-- SortableJS Library (Drag & Drop er jonno) -->
     <!-- <script src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script> -->
     
+    <!-- PWA Service Worker Registration -->
+  
+
    
     <script src="js/main.js"></script>
+      <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('./sw.js')
+                    .then(registration => {
+                        console.log('ServiceWorker registration successful');
+                    })
+                    .catch(err => {
+                        console.log('ServiceWorker registration failed: ', err);
+                    });
+            });
+        }
+    </script>
 </body>
 </html>
