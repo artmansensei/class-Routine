@@ -549,6 +549,10 @@ h3 {
     color: var(--time-color);
 }
 
+.routine-card {
+    will-change: transform, box-shadow;
+}
+
 /* Mobile Responsive */
 @media (max-width: 400px) {
     .datetime-widget {
