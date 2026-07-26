@@ -325,13 +325,13 @@ h3 {
     background: rgba(0, 0, 0, 0.4);
     backdrop-filter: blur(2px);
     z-index: 999;
-    display: none; /* Initially hidden */
+    visibility: hidden; 
     opacity: 0;
-    transition: opacity 0.3s ease;
+    transition: opacity 0.2s ease, visibility 0.2s ease; 
 }
 
 .overlay.active {
-    display: block;
+    visibility: visible;
     opacity: 1;
 }
 
@@ -404,7 +404,7 @@ h3 {
     z-index: 10000;
     opacity: 0;
     visibility: hidden;
-    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .confirm-popup.show {
@@ -551,6 +551,16 @@ h3 {
 
 .routine-card {
     will-change: transform, box-shadow;
+}
+/* Sidebar & Modal Performance Boost */
+.sidebar, .confirm-popup, .overlay {
+    will-change: transform, opacity;
+    backface-visibility: hidden;
+}
+
+/* Fix click delay globally for better touch response */
+button, .menu-item, .routine-card, .day-tab {
+    touch-action: manipulation;
 }
 
 /* Mobile Responsive */
